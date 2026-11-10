@@ -1,0 +1,345 @@
+.role-badge {
+  display: inline-block;
+  background: #f49a6c;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-left: 8px;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 30px;
+  padding: 25px 30px;
+  background: linear-gradient(135deg, #fff0e7, #fff7d9);
+  border-radius: 20px;
+  border: 1px solid #f4eee4;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #28354d;
+}
+
+.admin-header p {
+  margin: 4px 0 0;
+  color: #778196;
+  font-size: 14px;
+}
+
+.admin-header svg {
+  color: #e58b5d;
+}
+
+.admin-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+  border-bottom: 2px solid #f1ece4;
+  padding-bottom: 0;
+}
+
+.admin-tabs button {
+  background: none;
+  border: none;
+  padding: 13px 22px;
+  font-weight: 800;
+  font-size: 14px;
+  color: #778196;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  border-radius: 12px 12px 0 0;
+  transition: all 0.2s;
+}
+
+.admin-tabs button:hover {
+  color: #e58b5d;
+  background: #fff8f3;
+}
+
+.admin-tabs button.active {
+  color: #e58b5d;
+  border-bottom-color: #f49a6c;
+  background: #fff;
+}
+
+.admin-section h2 {
+  font-size: 20px;
+  color: #28354d;
+  margin: 25px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f4eee4;
+}
+
+.admin-form {
+  background: #fff;
+  border: 1px solid #f1ece4;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 20px #28354d06;
+}
+
+.admin-form label {
+  display: block;
+  font-size: 13px;
+  font-weight: 800;
+  color: #4a5568;
+  margin-bottom: 15px;
+}
+
+.admin-form input,
+.admin-form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  padding: 12px 14px;
+  border: 1px solid #e8eaf0;
+  border-radius: 11px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+  border-color: #f49a6c;
+  box-shadow: 0 0 0 3px #f49a6c18;
+}
+
+.admin-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.admin-form .btn-primary {
+  margin-top: 8px;
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.admin-table-wrap {
+  overflow-x: auto;
+  border-radius: 16px;
+  border: 1px solid #f1ece4;
+  margin-bottom: 25px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 14px;
+}
+
+.admin-table thead {
+  background: #faf7f2;
+}
+
+.admin-table th {
+  text-align: left;
+  padding: 14px 16px;
+  font-weight: 800;
+  color: #4a5568;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #f1ece4;
+}
+
+.admin-table td {
+  padding: 13px 16px;
+  border-bottom: 1px solid #f7f3ee;
+  vertical-align: middle;
+}
+
+.admin-table tbody tr:hover {
+  background: #fffbf5;
+}
+
+.admin-table .icon-cell {
+  font-size: 28px;
+  text-align: center;
+  width: 60px;
+}
+
+.table-thumb {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.edit-input {
+  padding: 8px 10px !important;
+  border: 1px solid #e8eaf0;
+  border-radius: 8px;
+  outline: none;
+  font-size: 13px;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.edit-input:focus {
+  border-color: #f49a6c;
+}
+
+.edit-input.small {
+  width: 60px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.btn-edit,
+.btn-delete,
+.btn-save,
+.btn-cancel {
+  border: none;
+  padding: 8px 10px;
+  border-radius: 9px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+
+.btn-edit {
+  background: #eef2ff;
+  color: #6366f1;
+}
+
+.btn-edit:hover {
+  background: #dde3fd;
+}
+
+.btn-delete {
+  background: #fff0f0;
+  color: #ef4444;
+}
+
+.btn-delete:hover {
+  background: #fee2e2;
+}
+
+.btn-save {
+  background: #ecfdf5;
+  color: #10b981;
+}
+
+.btn-save:hover {
+  background: #d1fae5;
+}
+
+.btn-cancel {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.btn-cancel:hover {
+  background: #e5e7eb;
+}
+
+.admin-empty {
+  text-align: center;
+  color: #a0aec0;
+  padding: 30px;
+  font-style: italic;
+}
+
+.admin-toast {
+  position: fixed;
+  top: 95px;
+  right: 24px;
+  padding: 14px 24px;
+  border-radius: 13px;
+  font-weight: 800;
+  font-size: 14px;
+  z-index: 100;
+  animation: slideIn 0.3s ease;
+  box-shadow: 0 8px 25px #0002;
+}
+
+.admin-toast.ok {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.admin-toast.err {
+  background: #fff0f0;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(80px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.pendiri-preview {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #f1ece4;
+}
+
+.upload-box {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upload-box input[type="file"] {
+  padding: 8px 0;
+  background: none;
+  border: none;
+}
+
+.upload-preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 6px;
+  background: #faf7f2;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px dashed #e58b5d55;
+}
+
+.upload-preview img {
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.upload-preview button {
+  background: #fff0f0;
+  color: #ef4444;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}

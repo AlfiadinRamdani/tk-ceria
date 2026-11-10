@@ -1,0 +1,139 @@
+.auth-wrap {
+  min-height: calc(100vh - 150px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  gap: 45px;
+  align-items: center;
+}
+
+.auth-art {
+  background: linear-gradient(145deg, #ffe6cf, #fff4ce);
+  border-radius: 30px;
+  padding: 55px 40px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-art span {
+  font-size: 65px;
+}
+
+.auth-art h2 {
+  font-size: 34px;
+  line-height: 1.25;
+}
+
+.auth-art p {
+  color: #7b8495;
+}
+
+.auth-card {
+  background: #fff;
+  border: 1px solid #f1ece4;
+  padding: 35px;
+  border-radius: 25px;
+  box-shadow: 0 12px 45px #28354d0a;
+}
+
+.auth-logo {
+  font-size: 35px;
+}
+
+.auth-card h1 {
+  margin: 8px 0;
+}
+
+.auth-card > p {
+  color: #8791a1;
+  margin-top: 0;
+}
+
+.auth-card label {
+  display: block;
+  font-size: 13px;
+  font-weight: 900;
+  margin: 17px 0;
+}
+
+.auth-card input {
+  display: block;
+  width: 100%;
+  margin-top: 7px;
+  padding: 13px 14px;
+  border: 1px solid #e8eaf0;
+  border-radius: 11px;
+  outline: none;
+}
+
+.auth-card input:focus {
+  border-color: #f49a6c;
+}
+
+.full {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.auth-switch {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #778196;
+}
+
+.auth-switch a {
+  color: #e58b5d;
+  font-weight: 900;
+}
+
+.error {
+  background: #fff0f0;
+  color: #b93838;
+  padding: 10px;
+  border-radius: 9px;
+  font-size: 13px;
+}
+
+/* Proteksi Akses Box */
+.auth-required-box {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #f1ece4;
+  border-radius: 24px;
+  padding: 45px 30px;
+  box-shadow: 0 8px 30px #27334a08;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-required-box svg {
+  color: #e58b5d;
+  margin-bottom: 12px;
+}
+
+.auth-required-box h2,
+.auth-required-box h3 {
+  color: #28354d;
+  margin: 5px 0 10px;
+}
+
+.auth-required-box p {
+  color: #778196;
+  max-width: 440px;
+  line-height: 1.7;
+  margin: 0 0 25px;
+  font-size: 15px;
+}
+
+.auth-required-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

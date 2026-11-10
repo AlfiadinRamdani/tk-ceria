@@ -1,0 +1,104 @@
+.header {
+  height: 82px;
+  padding: 0 max(calc((100% - 1160px) / 2), 5%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 3px 18px #26334a0a;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #26334b;
+}
+
+.brand-icon {
+  font-size: 34px;
+}
+
+.brand small {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  color: #8791a1;
+  letter-spacing: 0.4px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav > a:not(.nav-login):not(.nav-register) {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #657087;
+}
+
+.nav a.active,
+.nav a:hover {
+  color: #ef9364 !important;
+}
+
+.nav-login,
+.nav-register,
+.nav-logout {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.nav-register {
+  background: #f49a6c;
+  color: #fff !important;
+  border: 0;
+  border-radius: 13px;
+  padding: 12px 20px;
+  box-shadow: 0 6px 14px #f49a6c33;
+}
+
+.nav-logout {
+  border: 0;
+  background: none;
+  color: #657087;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-label {
+  font-size: 13px;
+  color: #68758a;
+}
+
+.menu-btn {
+  display: none;
+  background: none;
+  border: 0;
+}
+
+footer {
+  border-top: 1px solid #f1ece4;
+  padding: 30px max(calc((100% - 1110px) / 2), 5%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+footer p {
+  font-size: 12px;
+  color: #8992a1;
+}

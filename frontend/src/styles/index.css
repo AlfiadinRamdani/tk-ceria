@@ -1,0 +1,11 @@
+/* Master CSS file - mengimpor modular stylesheet */
+@import "./base.css";
+@import "./navbar.css";
+@import "./beranda.css";
+@import "./kegiatan.css";
+@import "./guru.css";
+@import "./pendiri.css";
+@import "./auth.css";
+@import "./dashboard.css";
+@import "./admin.css";
+@import "./responsive.css";

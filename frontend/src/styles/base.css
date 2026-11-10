@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  font-family: Nunito, system-ui, sans-serif;
+  color: #27334a;
+  background: #fffdf8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #e58b5d;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.btn-primary,
+.btn-light {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 21px;
+  border-radius: 13px;
+  font-weight: 900;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #f49a6c;
+  color: #fff !important;
+  box-shadow: 0 6px 14px #f49a6c33;
+}
+
+.btn-light {
+  background: #fff0e7;
+  color: #dc895f;
+}
+
+.text-link {
+  color: #e58b5d;
+  font-weight: 900;
+}
+
+.page {
+  max-width: 1110px;
+  margin: 0 auto;
+  min-height: 65vh;
+  padding: 55px 24px 75px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.page-title h1 {
+  font-size: 34px;
+  margin: 8px 0;
+  color: #28354d;
+}
+
+.page-title p {
+  color: #778196;
+  line-height: 1.8;
+  font-size: 16px;
+  max-width: 500px;
+  margin: 8px auto;
+}

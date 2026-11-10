@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1794035741724,
+    "nama": "Alfiadin Ramdani",
+    "email": "ramdani@gmail.com",
+    "password": "$2a$10$oBDf6G6p3d8cgq2wToVURe94l61QkaWJaq3sBg88JG1.taG.nINIm",
+    "role": "admin"
+  },
+  {
+    "id": 1794195050352,
+    "nama": "aldi",
+    "email": "aldi@gmail.com",
+    "password": "$2a$10$q1g4mf1Mv.o0tlahDxgS6.3NKwLUXvoG17xvCh4fq63d/QDiYFkiy",
+    "role": "user"
+  },
+  {
+    "id": 1794280169946,
+    "nama": "ramdan",
+    "email": "ramdan@gmail.com",
+    "password": "$2a$10$j/QMxi3M/llFB9qExf/T4eJwMSN/7a7ZP7IsZEhAJxArbiRbghCA6",
+    "role": "user"
+  }
+]

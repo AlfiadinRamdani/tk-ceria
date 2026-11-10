@@ -1,0 +1,40 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.stats > div {
+  background: #fff;
+  border: 1px solid #f1ece4;
+  border-radius: 20px;
+  padding: 25px;
+  display: grid;
+  gap: 5px;
+}
+
+.stats span {
+  font-size: 28px;
+}
+
+.stats b {
+  font-size: 30px;
+}
+
+.stats small {
+  color: #7b8495;
+}
+
+.dashboard-links {
+  display: grid;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.dashboard-links a {
+  background: #fff4e9;
+  padding: 17px;
+  border-radius: 12px;
+  font-weight: 800;
+  color: #6a7180;
+}

@@ -1,0 +1,126 @@
+@media (max-width: 760px) {
+  .header {
+    height: 70px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 12px 20px #0001;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav > a:not(.nav-login):not(.nav-register) {
+    padding: 5px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    gap: 28px;
+  }
+
+  .hero-art img {
+    height: 280px;
+  }
+
+  .float-card {
+    left: 10px;
+  }
+
+  .features,
+  .cards,
+  .teacher-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .features {
+    margin-bottom: 45px;
+  }
+
+  .section-heading {
+    align-items: start;
+    gap: 10px;
+  }
+
+  .profile {
+    grid-template-columns: 1fr;
+  }
+
+  .profile img {
+    height: 250px;
+  }
+
+  .auth-wrap {
+    grid-template-columns: 1fr;
+    margin: 15px auto;
+  }
+
+  .auth-art {
+    min-height: 220px;
+    padding: 30px;
+  }
+
+  .auth-art h2 {
+    font-size: 26px;
+  }
+
+  .auth-card {
+    padding: 25px;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .admin-header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .admin-tabs {
+    flex-wrap: wrap;
+  }
+
+  .admin-tabs button {
+    flex: 1;
+    min-width: 100px;
+    font-size: 13px;
+    padding: 10px 14px;
+  }
+
+  .admin-table-wrap {
+    font-size: 13px;
+  }
+
+  .admin-form {
+    padding: 18px;
+  }
+
+  .admin-toast {
+    left: 16px;
+    right: 16px;
+  }
+}
